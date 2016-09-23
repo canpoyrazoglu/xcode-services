@@ -14,7 +14,7 @@ A collection (hopefully) of tools for Xcode. I've started this mini-project as a
  - Select Shortcuts tab from above
  - Select Services from the list on the left
  - Under Text section, find the service that you've just saved
- - Double click where it says "none" at the right, and give it an unused keyboard shortcut (I've did `option` + `\``)
+ - Double click where it says "none" at the right, and give it an unused keyboard shortcut (I've did `option` + `````)
  
 You are set!
 
