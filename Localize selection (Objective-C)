@@ -1,0 +1,8 @@
+on run {input, parameters}
+	set dialog_input to (text 2 thru -1 of (input as string)) as string
+	display dialog "Description for translation:" default answer dialog_input
+	set desc to text returned of result
+	set output to "NSLocalizedString(" & input & ", @\"" & desc & "\")"
+	
+	return output
+end run
