@@ -4,12 +4,7 @@ A collection (hopefully) of tools for Xcode. I've started this mini-project as a
 
 # Localize selection
 
- - Open Automator on your Mac
- - Create new Service
- - (Optional step) From the top, leave Service receives selected as "text" but choose Xcode as the application by selecting "Other..." from the list and selecting Xcode from the applications folder on that menu
- - From the left actions menu, select Run AppleScript
- - Copy the content of Localize selection file
- - Save the service, give it a meaningful name (I've named it "Localize selection for Objective-C")
+ - Copy the service inside the "Localize selected string" to `~/Library/Services`
  - Go to System Preferences -> Keyboard
  - Select Shortcuts tab from above
  - Select Services from the list on the left
