@@ -16,3 +16,5 @@ You are set!
 Now, whenever you are coding, when you want to localize a string using the `NSLocalizedString` macro, just select the text *including the @ sign and the quotation marks*, and hit your keyboard shortcut. Type a description (this is imporant for the translator to understand the context, so make it clear) and your localized string is ready.
 
 I've made extensive use of this shortcut on my own projects where there are *a lot* of strings for translation.
+
+*Note:* You may need to use the service at least once from the Menu after selecting text (Xcode -> Services -> Localize selected string) for the keyboard shortcut to work.
